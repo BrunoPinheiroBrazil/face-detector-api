@@ -47,6 +47,6 @@ jobs:
           --region ${{ env.REGION }} \
           --platform managed \
           --allow-unauthenticated \
-          --memory 4Gi \
+          --memory 6Gi \
           --timeout 120s \
           --quiet
