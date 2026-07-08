@@ -1,0 +1,34 @@
+# Cache do Motor Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Ambientes Virtuais e Dependencias Locais
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Configurações da tua IDE
+.vscode/
+.idea/
+
+# Arquivos da Autópsia Visual (Evita subir fotos tuas e da Pam para o Git)
+temp_*.jpg
+temp_*.jpeg
+temp_*.png
+dummy.jpg
+.deepface/
+
+# Firewalls de Credenciais
+.env
+.env.local
+secrets.json
+
+# Lixo de OS
+.DS_Store
+Thumbs.db
