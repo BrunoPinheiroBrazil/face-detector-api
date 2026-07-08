@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  PROJECT_ID: api-estresse-bruno  # Substitui pelo ID real do teu projeto no GCP
+  PROJECT_ID: FaceDetectionAPI  
   SERVICE_NAME: detector-estresse
   REGION: us-central1
 
@@ -47,6 +47,6 @@ jobs:
           --region ${{ env.REGION }} \
           --platform managed \
           --allow-unauthenticated \
-          --memory 6Gi \
+          --memory 4Gi \
           --timeout 120s \
           --quiet
